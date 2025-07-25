@@ -1,7 +1,7 @@
-node_modules
+back-dev/node_modules
 # Keep environment variables out of version control
 .env
 
-/src/generated/prisma
+back-dev/src/generated/prisma
 
-/dist
+/back-dev/dist
