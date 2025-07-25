@@ -29,7 +29,7 @@ function middleware(req, res, next) {
     try {
         const decodedToken = jwt.verify(token, JWT_SECRET);
 
-        // Type guard for TypeScript
+        
         if (typeof decodedToken === 'object' && 'id' in decodedToken) {
             req.userID = decodedToken.id;
             next();
