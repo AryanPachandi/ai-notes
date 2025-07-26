@@ -188,6 +188,22 @@ app.put('/note/:id', middleware, async (req, res) => {
   }
 });
 
+app.get('/summary', middleware, async(req ,res)=>{
+
+  const currentContent = req.body.currentContent;
+
+  //python backend api
+
+
+
+})
+
+app.get("/mic-speech", middleware , async (req,res) => {
+
+//python backend or this route will be written in fast api/flask
+
+})
+
 app.listen(3000,()=>{
   console.log("working on 3000");
 
