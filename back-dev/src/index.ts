@@ -195,7 +195,6 @@ app.get('/summary', middleware, async(req ,res)=>{
   //python backend api
 
 
-
 })
 
 app.get("/mic-speech", middleware , async (req,res) => {
